@@ -12,13 +12,13 @@ https://templatemo.com/tm-578-first-portfolio
 -----------------------------------------*/
 :root {
   --white-color:                  #ffffff;
-  --primary-color:                #535da1;
-  --secondary-color:              #14B789;
+  --primary-color:                #dda15e;
+  --secondary-color:              #bc6c25;
   --section-bg-color:             #f9f9f9;
   --dark-color:                   #000000;
   --p-color:                      #717275;
   --border-color:                 #e9eaeb;
-  --featured-border-color:        #727aab;
+  --featured-border-color:        #606c38;
 
   --body-font-family:             'DM Sans', sans-serif;
 
@@ -46,6 +46,9 @@ body {
     font-family: var(--body-font-family); 
 }
 
+#section_1 {
+  background-color: 606c38;
+}
 
 /*---------------------------------------
   TYPOGRAPHY               
@@ -473,6 +476,8 @@ strong {
   overflow: hidden;
   padding-top: 330px;
   padding-bottom: 330px;
+  width: 100vw;
+  height: 100vh;
 }
 
 @media  screen and (min-width: 991px) {
@@ -522,7 +527,6 @@ strong {
   position: absolute;
   z-index: 22;
   top: 0;
-  width: 100%;
   min-width: 550px;
 }
 
@@ -575,7 +579,7 @@ strong {
   background: var(--white-color);
 }
 
-.about-image {
+.about-age {
   border-radius: var(--border-radius-medium);
 }
 
@@ -660,8 +664,8 @@ strong {
 }
 
 .services-thumb:hover .services-icon-wrap {
-  background: var(--secondary-color);
-  border-color: var(--secondary-color);
+  /* background: var(--secondary-color);
+  border-color: var(--secondary-color); */
   /* color: var(--white-color); */
 }
 
@@ -1035,7 +1039,7 @@ strong {
     font-size: 18px;
   }
 
-  .section-padding {
+  .-padding {
     padding-top: 80px;
     padding-bottom: 80px;
   }
