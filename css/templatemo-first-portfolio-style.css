@@ -46,7 +46,7 @@ https://templatemo.com/tm-578-first-portfolio
   height: 100vh;
 }
 
-#section_1-1 {
+.section_1-1 {
   height: 50vh;
 }
 
@@ -97,6 +97,10 @@ body {
   background-color: 606c38;
 }
 
+.about-image {
+  border-radius: 15px;
+  height: 80%;
+}
 
 /*---------------------------------------
   TYPOGRAPHY               
@@ -122,13 +126,13 @@ h6 {
 
 h1 {
   font-size: var(--h1-font-size);
-  letter-spacing: 3px;
+  letter-spacing: 1px;
 }
 
 h2 {
   font-size: var(--h2-font-size);
   color: var(--secondary-color);
-  letter-spacing: -3px;
+  
 }
 
 h3 {
