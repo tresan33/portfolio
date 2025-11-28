@@ -46,7 +46,7 @@ https://templatemo.com/tm-578-first-portfolio
   height: 100vh;
 }
 
-#section_1-1 {
+.section_1-1 {
   height: 50vh;
 }
 
@@ -97,7 +97,14 @@ body {
   background-color: 606c38;
 }
 
+.about-image {
+  border-radius: 15px;
+  height: 80%;
+}
 
+.hero-col {
+  width: 100px;
+}
 /*---------------------------------------
   TYPOGRAPHY               
 -----------------------------------------*/
@@ -122,13 +129,13 @@ h6 {
 
 h1 {
   font-size: var(--h1-font-size);
-  letter-spacing: 3px;
+  letter-spacing: 1px;
 }
 
 h2 {
   font-size: var(--h2-font-size);
   color: var(--secondary-color);
-  letter-spacing: -3px;
+  
 }
 
 h3 {
@@ -320,6 +327,20 @@ strong {
   color: var(--white-color);
   font-weight: var(--font-weight-bold);
   padding: 12px 24px;
+}
+
+.custom-arrow-btn {
+  width: 60px;
+  background: var(--secondary-color);
+  border-radius: 25%;
+  color: var(--white-color);
+  font-weight: var(--font-weight-bold);
+}
+
+.custom-arrow-btn:hover {
+  background: var(--primary-color);
+  box-shadow: 0 1rem 3rem rgba(0,0,0,.175);
+  color: var(--white-color);
 }
 
 .custom-btn:hover {
@@ -832,8 +853,7 @@ strong {
 
 .contact-info {
   background: var(--white-color);
-  border-top-right-radius: var(--border-radius-small);
-  border-bottom-right-radius: var(--border-radius-small);
+  border-radius: var(--border-radius-small);
   padding: 60px 30px 30px 30px;
   height: 100%;
 }
